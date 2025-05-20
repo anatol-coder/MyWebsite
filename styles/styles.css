@@ -65,10 +65,6 @@ nav .logo {
   max-height: 40px;
 }
 
-nav .logo-small {
-  max-height: 30px;
-}
-
 nav ul {
   list-style: none;
   margin: 0;
@@ -127,6 +123,7 @@ nav a {
 .description {
   padding-left: 61px;
 }
+
 .content-container {
   padding: 60px 10px;
 }
