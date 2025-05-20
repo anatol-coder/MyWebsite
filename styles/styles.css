@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #7a91c9;
   --secondary-color: #f9f7fe;
   --headings-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", serif;
@@ -33,7 +33,7 @@ h5 {
 }
 
 .hero h1 {
-  font-size: 96px;
+  font-size: 56px;
 }
 .hero p {
   font-family: var(--secondary-font-family);
@@ -128,8 +128,13 @@ nav a {
   padding: 20px 94px 55px 0;
 }
 .content h1 {
-  font-size: 64px;
+  font-size: 45px;
   line-height: 80px;
+}
+.content-container img.headshot {
+  max-width: 400px;
+  border-radius: 20px;
+  border: 3px solid var(--branding-color);
 }
 
 .content-container h2 {
@@ -167,6 +172,9 @@ footer .social-media-links a {
 footer .social-media-links a:hover {
   background-color: var(--branding-color);
   color: var(--secondary-color);
+}
+footer .text-center a {
+  color: #495b7f;
 }
 
 @media (max-width: 900px) {
