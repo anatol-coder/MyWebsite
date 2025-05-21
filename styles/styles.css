@@ -228,4 +228,8 @@ footer .text-center a {
   .content a {
     text-align: center;
   }
+  .email-link {
+    text-align: center;
+    font-size: 14px;
+  }
 }
