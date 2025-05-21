@@ -133,8 +133,9 @@ nav a {
 }
 .content-container img.headshot {
   max-width: 400px;
+  max-height: 500px;
   border-radius: 20px;
-  border: 3px solid var(--branding-color);
+  border: 7px solid var(--branding-color);
 }
 
 .content-container h2 {
@@ -214,7 +215,8 @@ footer .text-center a {
     margin-left: 80px;
   }
   .content-container img {
-    padding-top: 70px;
+    display: block;
+    margin: 40px auto;
   }
 
   .content a {
