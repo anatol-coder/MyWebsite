@@ -148,6 +148,12 @@ nav a {
   font-size: 16px;
   font-weight: regular;
 }
+.content-container .bio-link {
+  color: var(--branding-color);
+}
+.content-container .bio-link:hover {
+  color: #272142;
+}
 footer .work-inquiry {
   background: var(--secondary-color);
   margin: 132px 213px 331px 67px;
