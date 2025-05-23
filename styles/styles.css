@@ -10,9 +10,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5 {
+h4 {
   font-family: var(--headings-font-family);
   font-weight: bold;
   color: black;
@@ -106,6 +104,9 @@ nav a {
 .container p {
   text-align: left;
   opacity: 70%;
+}
+.container img {
+  border: 1px solid bisque;
 }
 
 .images-descriptions h2 {
@@ -224,12 +225,11 @@ footer .text-center a {
     display: block;
     margin: 40px auto;
   }
-
   .content a {
     text-align: center;
   }
-  .email-link {
-    text-align: center;
-    font-size: 14px;
+  footer .email-link a {
+    display: block;
+    margin: 0 auto;
   }
 }
