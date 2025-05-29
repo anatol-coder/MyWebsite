@@ -152,7 +152,14 @@ nav a {
 .content-container .bio-link {
   color: var(--branding-color);
 }
+.content-container .resume-link {
+  color: var(--branding-color);
+}
+
 .content-container .bio-link:hover {
+  color: #272142;
+}
+.content-container .resume-link:hover {
   color: #272142;
 }
 footer .work-inquiry {
